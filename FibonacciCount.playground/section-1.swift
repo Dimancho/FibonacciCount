@@ -6,7 +6,7 @@ func fiboNumerCount(argumentN: Int) -> (argumentN: Int, answer: Int) {
     var fiboFirst = 0
     var fiboSecond = 1
     var fiboThird = 1
-    for count in 3...argumentN {
+    for count in 2...argumentN {
         
         fiboThird = fiboFirst + fiboSecond
         fiboFirst = fiboSecond
